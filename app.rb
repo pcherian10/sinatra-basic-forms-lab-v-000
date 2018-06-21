@@ -6,6 +6,8 @@ class App < Sinatra::Base
     erb :index
   end
 
-  post '/'
+  post '/new' do
+
+  end
 
 end
